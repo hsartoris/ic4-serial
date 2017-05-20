@@ -1,0 +1,121 @@
+[00001.031] InterSense Library ver. 4.2401 64-bit
+[00001.058] Copyright 1998-2014 InterSense
+[00001.060] http://www.intersense.com
+[00001.061] Tel: +1 781-541-6330
+[00001.063]
+[00001.063] ####################################################
+[00001.064] # Looking for InterSense tracking device number 1  #
+[00001.065] ####################################################
+[00001.068]
+[00001.068] Sat May 20 17:28:34 2017
+[00001.107]
+[00001.107] >>> HID protocol detection <<<
+[00001.109]
+[00001.109] >>> Serial/TCP protocol detection <<<
+[00001.131]
+[00001.131] File isports.ini is present and will be used.
+[00001.145] isports.ini: /dev/ttyUSB0 (PORT:1 TYPE:1 BAUD:0)
+[00001.146] Looking for IS-X00 device on port 1 (1.15)
+[00001.158] Opening port: /dev/ttyUSB0 (S:1 N:0 DP:1 DT:1 RT:0)
+[00001.159] Failed to open /dev/ttyUSB0
+[00001.160] isports.ini: /dev/ttys0 (PORT:2 TYPE:1 BAUD:0)
+[00001.161] Looking for IS-X00 device on port 2 (1.16)
+[00001.162] Opening port: /dev/ttys0 (S:1 N:1 DP:2 DT:1 RT:0)
+[00001.169] Failed to open /dev/ttys0
+[00001.174] isports.ini: /dev/cu.SLAB_USBtoUART (PORT:4 TYPE:1 BAUD:0)
+[00001.176] Looking for IS-X00 device on port 4 (1.18)
+[00001.177] Opening port: /dev/cu.SLAB_USBtoUART (S:1 N:3 DP:4 DT:1 RT:0)
+[00001.182] Successfully opened /dev/cu.SLAB_USBtoUART
+[00001.317]
+[00001.317] >>> SDP protocol detection <<<
+[00001.318]
+[00001.318] Looking for SDP devices (1.32)
+[00001.319] Located isports.ini file at /Users/hsartoris/ic4-serial/Sample
+[00001.339] DEVWRN: Device config file not found: isradio.ini
+[00001.342] Opening port: /dev/ttyUSB0 (S:1 N:0 DP:1 DT:1 RT:0)
+[00001.343] Failed to open /dev/ttyUSB0
+[00001.343] Opening port: /dev/ttys0 (S:1 N:1 DP:2 DT:1 RT:0)
+[00001.344] Failed to open /dev/ttys0
+[00001.345] Port 3 is not defined in isports.ini, skipping.
+[00001.346] Opening port: /dev/cu.SLAB_USBtoUART (S:1 N:3 DP:4 DT:1 RT:0)
+[00001.350] Successfully opened /dev/cu.SLAB_USBtoUART
+[00001.617] Port 5 is not defined in isports.ini, skipping.
+[00001.617] Port 6 is not defined in isports.ini, skipping.
+[00001.618] Port 7 is not defined in isports.ini, skipping.
+[00001.619] Port 8 is not defined in isports.ini, skipping.
+[00001.620] Port 9 is not defined in isports.ini, skipping.
+[00001.621] Port 10 is not defined in isports.ini, skipping.
+[00001.623] Port 11 is not defined in isports.ini, skipping.
+[00001.624] Port 12 is not defined in isports.ini, skipping.
+[00001.625] Port 13 is not defined in isports.ini, skipping.
+[00001.625] Port 14 is not defined in isports.ini, skipping.
+[00001.626] Port 15 is not defined in isports.ini, skipping.
+[00001.627] Port 16 is not defined in isports.ini, skipping.
+[00001.628] Port 17 is not defined in isports.ini, skipping.
+[00001.629] Port 18 is not defined in isports.ini, skipping.
+[00001.631] Port 19 is not defined in isports.ini, skipping.
+[00001.632] Port 20 is not defined in isports.ini, skipping.
+[00001.634] Port 21 is not defined in isports.ini, skipping.
+[00001.635] Port 22 is not defined in isports.ini, skipping.
+[00001.636] Port 23 is not defined in isports.ini, skipping.
+[00001.637] Port 24 is not defined in isports.ini, skipping.
+[00001.639] Port 25 is not defined in isports.ini, skipping.
+[00001.641] Port 26 is not defined in isports.ini, skipping.
+[00001.642] Port 27 is not defined in isports.ini, skipping.
+[00001.643] Port 28 is not defined in isports.ini, skipping.
+[00001.669] Port 29 is not defined in isports.ini, skipping.
+[00001.670] Port 30 is not defined in isports.ini, skipping.
+[00001.670] Port 31 is not defined in isports.ini, skipping.
+[00001.671] Port 32 is not defined in isports.ini, skipping.
+[00001.742] Tracker model: InertiaCube/InterTrax
+[00001.743] Configuring the system
+[00001.865]
+[00001.865] InertiaCube4 device detected
+[00001.866]
+[00001.866] Finished SDP detection (1.87)
+[00001.885] Configuring from isense1.cfg
+[00001.886] Finished configuring from file
+[00001.887] Writing configuration file isense1.cfg
+[00001.889] Finished writing to file
+[00001.890]
+[00001.890] ####################################################
+[00001.890] # Looking for InterSense tracking device number 2  #
+[00001.891] ####################################################
+[00001.892]
+[00001.892] Sat May 20 17:28:34 2017
+[00001.893]
+[00001.893] >>> HID protocol detection <<<
+[00001.894]
+[00001.894] >>> Serial/TCP protocol detection <<<
+[00001.895]
+[00001.895] File isports.ini is present and will be used.
+[00001.896] isports.ini: /dev/ttyUSB0 (PORT:1 TYPE:1 BAUD:0)
+[00001.897] Looking for IS-X00 device on port 1 (1.90)
+[00001.898] Opening port: /dev/ttyUSB0 (S:1 N:0 DP:1 DT:1 RT:0)
+[00001.899] Failed to open /dev/ttyUSB0
+[00001.902] isports.ini: /dev/ttys0 (PORT:2 TYPE:1 BAUD:0)
+[00001.904] Looking for IS-X00 device on port 2 (1.90)
+[00001.905] Opening port: /dev/ttys0 (S:1 N:1 DP:2 DT:1 RT:0)
+[00001.906] Failed to open /dev/ttys0
+[00001.907] isports.ini: /dev/cu.SLAB_USBtoUART (PORT:4 TYPE:1 BAUD:0)
+[00001.908] Looking for IS-X00 device on port 4 (1.91)
+[00001.909] Port 4 already in use
+[00001.911]
+[00001.911] >>> SDP protocol detection <<<
+[00001.912]
+[00001.912] Looking for SDP devices (1.91)
+[00001.913] Located isports.ini file at /Users/hsartoris/ic4-serial/Sample
+[00001.914]
+[00001.914] No SDP Deviced found (1.91)
+[00001.915]
+[00001.915] >>> UDP protocol detection <<<
+[00001.916]
+[00001.916] Looking for UDP Broadcasts
+[00002.131]   Checking UDP port 5001... NOT FOUND
+[00002.333]   Checking UDP port 5002... NOT FOUND
+[00002.534]   Checking UDP port 5003... NOT FOUND
+[00002.735]   Checking UDP port 5004... NOT FOUND
+[00002.936]   Checking UDP port 5005... NOT FOUND
+[00002.937]
+[00002.937] InterSense tracker not present
+[00002.938] Finished (2.94)
