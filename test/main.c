@@ -81,7 +81,7 @@ int main() {
   //char* portname = "/dev/cu.Bluetooth-Incoming-Port";
 
   // round 2
-  int serial = open("/dev/pts/3", O_RDWR| O_NOCTTY);
+  int serial = open("/dev/cu.Bluetooth-Incoming-Port", O_RDWR| O_NOCTTY);
   struct termios tty;
   struct termios tty_old;
   memset (&tty, 0, sizeof(tty));
@@ -137,14 +137,16 @@ int main() {
     printf( "Tracker not found" );
     return -1;
   }
-  float t = 10.6;
-  int t2 = 10;
+  //float t = 10.6;
+  //int t2 = 10;
   //char* out = float2str(t);
   //printf(out);
   //int n = write(serial, &out, sizeof(out));
   //n = write(serial, &t, sizeof(t));
   //n = write(serial, "\r\n", 2);
-
+  char* t = "fuck\n";
+  float test = 12.3;
+  write(serial, &t, sizeof(t));
   //for (i=0; i < 20; i++) {
   char out[50];
   while (loop) {
@@ -167,10 +169,12 @@ int main() {
     	//fwrite(&data.Station[0].Euler[0], 1, sizeof(data.Station[0].Euler[0]), fd);
     	//fwrite(&data.Station[0].Euler[1], 1, sizeof(data.Station[0].Euler[1]), fd);
     	//fwrite(&data.Station[0].Euler[2], 1, sizeof(data.Station[0].Euler[2]), fd);
+	write(serial, &test, sizeof(test));
+	//tcdrain(serial);
 
       for (int i = 0; i < sizeof(data.Station[0].Euler)/sizeof(float); i++) {
         sprintf(out, "%f", data.Station[0].Euler[i]);
-        write(serial, &out, sizeof(out));
+        //write(serial, &out, sizeof(out));
       }
 
       ISD_GetCommInfo( handle, &tracker );
