@@ -1,0 +1,7 @@
+2017/05/21 15:38:18 socat[18090] N PTY is /dev/ttys003
+2017/05/21 15:38:18 socat[18090] N opening character device "/dev/cu.Bluetooth-Incoming-Port" for reading and writing
+2017/05/21 15:38:18 socat[18090] N starting data transfer loop with FDs [6,6] and [8,8]
+2017/05/21 15:38:47 socat[18090] N socat_signal(): handling signal 2
+2017/05/21 15:38:47 socat[18090] N exiting on signal 2
+2017/05/21 15:38:47 socat[18090] N socat_signal(): finishing signal 2
+2017/05/21 15:38:47 socat[18090] N exit(130)
